@@ -3,9 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Dashboard</title>
+    <title>Dashboard Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Communities</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">
+            <div class="user-info upper-header">
+                <div class="upper-header-left">
+                    <img src="user-avatar.png" alt="User Avatar" class="user-avatar">
+                    <span>Hi there, Morgan Oakley (@morgan)</span>
+                </div>
+                <div class="actions upper-action">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+            <div class="user-info lower-header">
+                <div class="lower-header-left">
+                    <img src="user-avatar.png" alt="User Avatar" class="user-avatar">
+                    <span>Hi there, Morgan Oakley (@morgan)</span>
+                </div>
+                <div class="actions lower-action">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="projects">
+                <h2>Your Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>Sed tempus ut lacus ut scelerisque...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Less Cool Project</h3>
+                        <p>Nullam condimentum ipsum ut lectus...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Impossible App</h3>
+                        <p>In hac habitasse platea dictumst...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Etiam cursus eros ac efficitur fringilla...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Ad Blocker</h3>
+                        <p>Quisque eget rutrum nisl...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Money Maker</h3>
+                        <p>Praesent convallis, libero quis...</p>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcement-card">
+                    <div class="the-announcement">
+                        <h3>Site Maintenance</h3>
+                        <p>Vestibulum condimentum tellus lacus...</p>
+                    </div>
+                    <div class="the-announcement bd-line">
+                        <h3>Community Share Day</h3>
+                        <p>Nam vel lectus tincidunt...</p>
+                    </div>
+                    <div class="the-announcement ">
+                        <h3>Updated Privacy Policy</h3>
+                        <p>Phasellus efficitur nisi eget...</p>
+                    </div>
+                </div>
+                <h2>Trending</h2>
+                <div class="trending-card">
+                    <div class="trending">
+                        <h3>@tegan</h3>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="trending">
+                    <h3>@morgan</h3>
+                    <p>Super Cool Project</p>
+                </div>
+                <div class="trending">
+                    <h3>@kendall</h3>
+                    <p>Life Changing App</p>
+                </div>
+                <div class="trending">
+                    <h3>@alex</h3>
+                    <p>No Traffic Maker</p>
+                </div>
+                </div>
+                
+            </aside>
+        </main>
+    </div>
 </body>
 </html>
